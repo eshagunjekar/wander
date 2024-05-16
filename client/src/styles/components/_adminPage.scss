@@ -1,0 +1,174 @@
+#adminHeader {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+#adminH1 {
+  text-align: center;
+  // margin-right: calc(50vw - (160px + 115px));
+}
+
+#adminH1 {
+  text-align: center;
+  // margin-right: calc(50vw - (160px + 115px));
+}
+
+#headerBtnDiv {
+  text-align: left;
+  // margin: 0 auto;
+  position: relative;
+  text-align: start;
+}
+
+#admin-container {
+  margin: 0 auto;
+}
+
+#destinationsOwned {
+  width: 100%;
+}
+
+#yourDestinationsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#destination-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.backToProfile {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  padding: 8px;
+  width: 10%;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.destinationDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.destinationBtns {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add {
+  background-color: green;
+  border-radius: 3px;
+  height: 30px;
+  width: 160px;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.edit {
+  margin-bottom: 10px;
+  background-color: rgb(246, 180, 59);
+  border-radius: 3px;
+  height: 30px;
+  width: 60px;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.delete {
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  background-color: red;
+  border-radius: 3px;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.destinationImageDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinationImage {
+  width: 250px;
+  height: 180px;
+}
+
+#editForm {
+  display: grid;
+  width: 500px;
+  gap: 20px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.editModal {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.editModal span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editModal input {
+  width: 320px;
+}
+
+.editModal label {
+  width: 180px;
+  text-align: center;
+}
+
+.editModal-content {
+  display: grid;
+  gap: 20px;
+}
+
+.editModal::backdrop {
+  background: rgb(0 0 0 / 0.75);
+}
+
+.editModal h2 {
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+#submitEdit {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}

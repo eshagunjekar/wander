@@ -1,0 +1,20 @@
+// importing SCSS
+@import 'components/variables';
+@import 'components/header';
+@import 'components/home';
+@import 'components/modal';
+@import 'components/filters';
+@import 'components/card';
+@import 'components/singlepage';
+@import 'components/profilepage';
+@import 'components/adminPage';
+@import 'components/mediaquery';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

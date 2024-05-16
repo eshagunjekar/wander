@@ -1,0 +1,98 @@
+.form {
+  display: grid;
+  gap: 20px;
+  text-align: left;
+}
+
+.form label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus,
+.form input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+form,
+h2 {
+  font-family: $main-font;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-content {
+  display: grid;
+  gap: 20px;
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.75);
+}
+
+.modal h2 {
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.close-button:hover {
+  color: #666;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.text-danger {
+  font-size: 0.75em;
+  margin: 0;
+  color: red;
+  text-align: center;
+  min-height: 1em;
+}
